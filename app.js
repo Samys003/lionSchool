@@ -29,7 +29,11 @@ function telaHome (){
     // -- fim estudante 
 
 
-    //-- botoes --  
+    //-- botoes -- 
+    const divBotoes = document.createElement('div') 
+    divBotoes.className('botoes')
+
+    const botaoDS = document
 
     main.appendChild(principal)
     main.appendChild(estudante)
